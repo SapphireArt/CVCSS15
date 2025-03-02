@@ -1,0 +1,124 @@
+/* Algemene pagina opmaak */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Achtergrondkleur van de pagina */
+html {
+    background-color: #ffb6e3;
+    color: 000000;
+}
+
+/* Header */
+header {
+    background-color: #ff6cc7;
+    color: white;
+    padding: 13px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    background-color: #ff009d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+header nav ul li a:hover {
+background-color: #9b005f;
+color: rgb(255, 255, 255);
+border-style: 2px solid #ffffff;
+}
+
+/* Hoofdinhoud */
+main {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+th, td.intro {
+    border-style: hidden;
+    
+}
+table.intro {
+    border-style: hidden;
+    width: 180px; 
+    
+}
+tr.intro {
+    border-style: hidden;
+}
+
+
+/* Tabel voor Mijn CV */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(64, 0, 94);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #32003f;
+    color: white;
+}
+
+/* Formulier in contactpagina */
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: #a53da0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #b17eae;
+}
+
+/* Footer */
+#footer {
+    background-color: #520032;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
